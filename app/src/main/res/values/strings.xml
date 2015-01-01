@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tareas</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="btn_add">Agrega</string>
+    <string name="titulo">Ejm:Hacer deberes</string>
+    <string name="contenido">Ejm:Hacer 10 ejercicio de matematicas, 2 transacciones de matematicas</string>
+    <string name="agregar">Agregar</string>
+    <string name="eliminar">eliminar</string>
+    <string name="actualizar">Actualizar</string>
+
+    <string name="title_text">Escribe un resumen la tarea</string>
+    <string name="content_text">Escribe la tarea mas detallada</string>
+
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:textColor="@color/primary"
+
+        android:id="@+id/title_text"
+        android:text="@string/title_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        />
+    
+    <EditText
+        android:id="@+id/titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/titulo"
+        android:inputType="text"
+        android:layout_marginTop="5dp"
+        />
+
+    <TextView
+        android:textColor="@color/primary"
+        android:text="@string/content_text"
+        android:id="@+id/content_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        />
+    
+    <EditText
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/contenido"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="10dp"
+        />
+    
+    <ImageButton
+        android:id="@+id/agregar"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:text="@string/agregar"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_action_accept"
+        android:background="@drawable/circle_button"
+        android:layout_marginTop="6dp"
+        />
+        
+</LinearLayout>
+<!-- From: file:/home/alejandro/AndroidStudioProjects/Tareas/app/src/main/res/layout/add_tareas.xml -->

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/title_texto"
+        android:text="Programando"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/content_texto"
+        android:text="Python"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        />
+
+    
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" 
+        >
+        
+        <ImageButton
+            android:id="@+id/delete"
+            android:src="@drawable/ic_action_remove"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:background="@drawable/circle_remove"
+            android:layout_marginTop="10dp"
+            />
+        
+    </LinearLayout>
+
+</LinearLayout>
